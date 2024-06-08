@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transaction-page {
+  background-color: #f0e9e9;
+  padding: 20px;
+  color: #1b1a1a;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; 
+  width: 500px; 
+}
+
+.title {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-transaction-button {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-transaction-button:hover {
+  background-color: #0056b3;
+}
+
+.transaction-list {
+  font-size: 20px;
+  padding: 10px 14px 10px 14px;
+  list-style-type: none;
+  padding: 0;
+  background-color: #ccc;
+}
+
+.transaction-item {
+  margin-bottom: 10px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.modal-content {
+  margin-bottom: 20px;
+}
+
+.modal-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.modal-content input {
+  width: 90%;
+  padding: 10px; 
+  margin-bottom: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.save-button, .close-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.close-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.close-button:hover {
+  background-color: #c82333;
+}
+
+/* .error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+} */
